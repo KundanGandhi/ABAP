@@ -8,7 +8,8 @@ REPORT Z_DDIF_FIELDS_COMPARISON_K3.
 Type-pools: slis.
 
 Parameters: p_dtab1 type tabname default 'MC11VA0HDR',
-            p_dbtab type tabname default 'VBAK'.
+            p_dbtab type tabname default 'VBAK',
+            p_dbtab2 type tabname default 'VBAP'.
 
 Data: lt_dtab1 type STANDARD TABLE OF DFIES,
       lt_dbtab type STANDARD TABLE OF DFIES,
